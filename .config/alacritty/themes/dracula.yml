@@ -1,0 +1,26 @@
+colors:
+  name: Dracula
+  primary:
+    background: "#282A36"
+    foreground: "#F8F8F2"
+  cursor:
+    text: "#6272a4"
+    cursor: "#F8F8F2"
+  normal:
+    black: "#282A36"
+    red: "#FF5555"
+    green: "#8cfc84"
+    yellow: "#F1FA8C"
+    blue: "#9098ff"
+    magenta: "#FC84BC"
+    cyan: "#8BE9FD"
+    white: "#F8F8F2"
+  bright:
+    black: "#484b61"
+    red: "#ff3d3d"
+    green: "#71fc68"
+    yellow: "#eefc49"
+    blue: "#6e77ff"
+    magenta: "#fc6cc4"
+    cyan: "#70e5ff"
+    white: "#fafcfb"

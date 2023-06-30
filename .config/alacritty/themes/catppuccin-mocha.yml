@@ -1,0 +1,26 @@
+colors:
+  name: Catppuccin-Mocha
+  primary:
+    background: "#1e1e2e"
+    foreground: "#f5e0dc"
+  cursor:
+    text: "#cba6f7"
+    cursor: "#f5e0dc"
+  normal:
+    black: "#1e1e2e"
+    red: "#f38ba8"
+    green: "#a6e3a1"
+    yellow: "#f9e2af"
+    blue: "#94e2d5"
+    magenta: "#eba0ac"
+    cyan: "#89dceb"
+    white: "#cdd6f4"
+  bright:
+    black: "#494d64"
+    red: "#f26b86"
+    green: "#82e079"
+    yellow: "#fad37d"
+    blue: "#7be3d2"
+    magenta: "#e8798a"
+    cyan: "#6dd5e8"
+    white: "#e8edfc"

@@ -1,0 +1,26 @@
+colors:
+  name: Nord-Red
+  primary:
+    background: "#303848"
+    foreground: "#b0c2d7"
+  cursor:
+    text: "#be616b"
+    cursor: "#e5e9f0"
+  normal:
+    black: "#2e3440"
+    red: "#be616b"
+    green: "#a3be8c"
+    yellow: "#ebcb8b"
+    blue: "#80a1c2"
+    magenta: "#b48ead"
+    cyan: "#8fbcbb"
+    white: "#d8dee9"
+  bright:
+    black: "#5c687d"
+    red: "#bf3f4c"
+    green: "#91bf69"
+    yellow: "#e8c06f"
+    blue: "#5e81ac"
+    magenta: "#b370a6"
+    cyan: "#88c0d0"
+    white: "#eceff4"

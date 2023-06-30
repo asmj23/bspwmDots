@@ -1,0 +1,26 @@
+colors:
+  name: Nord
+  primary:
+    background: "#2e3440"
+    foreground: "#e5e9f0"
+  cursor:
+    text: "#81a1c1"
+    cursor: "#e5e9f0"
+  normal:
+    black: "#2e3440"
+    red: "#bf616a"
+    green: "#a3be8c"
+    yellow: "#ebcb8b"
+    blue: "#81a1c1"
+    magenta: "#b48ead"
+    cyan: "#8fbcbb"
+    white: "#d8dee9"
+  bright:
+    black: "#4c566a"
+    red: "#bf3f4c"
+    green: "#91bf69"
+    yellow: "#e8c06f"
+    blue: "#5e81ac"
+    magenta: "#b370a6"
+    cyan: "#88c0d0"
+    white: "#eceff4"

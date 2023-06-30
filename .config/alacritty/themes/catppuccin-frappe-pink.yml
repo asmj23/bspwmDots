@@ -1,0 +1,26 @@
+colors:
+  name: Catppuccin-Frappe
+  primary:
+    background: "#303446"
+    foreground: "#f2d5cf"
+  cursor:
+    text: "#ca9ee6"
+    cursor: "#f2d5cf"
+  normal:
+    black: "#303446"
+    red: "#e78284"
+    green: "#a6d189"
+    yellow: "#e5c890"
+    blue: "#81c8be"
+    magenta: "#ea999c"
+    cyan: "#99d1db"
+    white: "#c6d0f5"
+  bright:
+    black: "#838ba7"
+    red: "#eb4447"
+    green: "#a6d189"
+    yellow: "#e3b152"
+    blue: "#4bc9b8"
+    magenta: "#e34f55"
+    cyan: "#52c4d9"
+    white: "#e3e9fc"

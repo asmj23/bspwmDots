@@ -1,0 +1,80 @@
+## Copyright (C) 2020-2023 Aditya Shakya <adi1090x@gmail.com>
+##
+## Configuration for Alacritty, the GPU enhanced terminal emulator.
+## It's a very basic and simple config file, for full configuration...
+## See, /usr/share/doc/alacritty/example/alacritty.yml
+
+## Import files (Colors, Fonts, Etc)
+import:
+- ~/.config/alacritty/colors.yml
+# - ~/.config/berry/alacritty/fonts.yml
+## Set environment variables
+env:
+  TERM: alacritty
+  WINIT_X11_SCALE_FACTOR: '1.0'
+
+## Terminal window settings
+window:
+  dimensions:
+    columns: 84
+    lines: 23
+
+  padding:
+    x: 25
+    y: 0
+
+  decorations: full
+  startup_mode: Windowed
+  dynamic_title: true
+
+  ## scrolling
+  history: 10000
+  multiplier: 3
+
+  ## Background opacity
+  opacity: 1.0
+
+## Cursor
+cursor:
+  style:
+    shape: Block
+    blinking: On
+
+  unfocused_hollow: false
+
+## Live config reload
+#live_config_reload: true
+#colors:
+#  name: Ocean (dark)
+#  author: Chris Kempson
+#  primary:
+#    background: "#2b303b"
+#    foreground: "#c0c5ce"
+#  cursor:
+#    text: "#2b303b"
+#    cursor: "#c0c5ce"
+#  normal:
+#    black: "#2b303b"
+#    red: "#bf616a"
+#    green: "#a3be8c"
+#    yellow: "#ebcb8b"
+#    blue: "#8fa1b3"
+#    magenta: "#b48ead"
+#    cyan: "#96b5b4"
+#    white: "#c0c5ce"
+#  bright:
+#    black: "#65737e"
+#    red: "#bf616a"
+#    green: "#a3be8c"
+#    yellow: "#ebcb8b"
+#    blue: "#8fa1b3"
+#    magenta: "#b48ead"
+#    cyan: "#96b5b4"
+#    white: "#eff1f5"
+#theme: Ocean.dark
+
+## Shell
+#shell:
+#  program: /bin/zsh
+#  args:
+#    - --login

@@ -1,0 +1,26 @@
+colors:
+  name: Everforest
+  primary:
+    background: "#272E33"
+    foreground: "#D3C6AA"
+  cursor:
+    text: "#272E33"
+    cursor: "#D3C6AA"
+  normal:
+    black: "#272E33"
+    red: "#E67E80"
+    green: "#A7C080"
+    yellow: "#DBBC7F"
+    blue: "#7FBBB3"
+    magenta: "#D699B6"
+    cyan: "#83C092"
+    white: "#D3C6AA"
+  bright:
+    black: "#5D6B66"
+    red: "#E36264"
+    green: "#9bc25d"
+    yellow: "#DBB465"
+    blue: "#57BAAD"
+    magenta: "#D94E91"
+    cyan: "#4EBF7C"
+    white: "#D4CEC1"
