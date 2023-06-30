@@ -36,7 +36,7 @@ case $chosen in
     cp ~/.config/rofi/themes/nord.rasi ~/.config/rofi/colors.rasi
     cp ~/.config/bspwm/polybar/themes/nord ~/.config/bspwm/polybar/colors
 		cp ~/.config/bspwm/gtk-3.0-themes/nord.ini ~/.config/gtk-3.0/settings.ini
-    feh --bg-scale ~/Pictures/nord/5.jpeg
+    feh --bg-scale ~/Pictures/nord/2.jpg
     pkill polybar
     polybar -q example -c ~/.config/bspwm/polybar/config & disown
 	;;
