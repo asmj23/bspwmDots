@@ -30,6 +30,10 @@ case $chosen in
     feh --bg-scale ~/Pictures/everforest/fog_forest_2.png
     pkill polybar
     polybar -q example -c ~/.config/bspwm/polybar/config & disown
+    betterlockscreen -u ~/Pictures/everforest/1.jpeg --dim
+    pkill dunst
+    cp ~/.config/dunst/themes/everforest ~/.config/dunst/dunstrc
+    dunst & disown
 	;;
   $nord)
     cp ~/.config/alacritty/themes/nord.yml ~/.config/alacritty/colors.yml
@@ -39,6 +43,10 @@ case $chosen in
     feh --bg-scale ~/Pictures/nord/2.jpg
     pkill polybar
     polybar -q example -c ~/.config/bspwm/polybar/config & disown
+    betterlockscreen -u ~/Pictures/nord/1.jpg --dim
+    pkill dunst
+    cp ~/.config/dunst/themes/nord ~/.config/dunst/dunstrc
+    dunst & disown
 	;;
   $nord_red)
     cp ~/.config/alacritty/themes/nord-red.yml ~/.config/alacritty/colors.yml
@@ -48,6 +56,10 @@ case $chosen in
     feh --bg-scale ~/Pictures/nord-red/1.jpeg
     pkill polybar
     polybar -q example -c ~/.config/bspwm/polybar/config & disown
+    betterlockscreen -u ~/Pictures/nord-red/4.jpeg --dim
+    pkill dunst
+    cp ~/.config/dunst/themes/nord-red ~/.config/dunst/dunstrc
+    dunst & disown
 	;;
 	$dracula)
     cp ~/.config/alacritty/themes/dracula.yml ~/.config/alacritty/colors.yml
@@ -57,6 +69,10 @@ case $chosen in
     feh --bg-scale ~/Pictures/dracula/2.jpeg
     pkill polybar
     polybar -q example -c ~/.config/bspwm/polybar/config & disown
+    betterlockscreen -u ~/Pictures/dracula/1.png --dim
+    pkill dunst
+    cp ~/.config/dunst/themes/dracula ~/.config/dunst/dunstrc
+    dunst & disown
 	;;
 	$catppuccin_mocha)
     cp ~/.config/alacritty/themes/catppuccin-mocha.yml ~/.config/alacritty/colors.yml
@@ -66,6 +82,10 @@ case $chosen in
     feh --bg-scale ~/Pictures/Catppuccin/4.png
     pkill polybar
     polybar -q example -c ~/.config/bspwm/polybar/config & disown
+    betterlockscreen -u ~/Pictures/catppuccin/16.jpeg --dim
+    pkill dunst
+    cp ~/.config/dunst/themes/catppuccin-mocha ~/.config/dunst/dunstrc
+    dunst & disown
 	;;
 	$catppuccin_macchiato)
     cp ~/.config/alacritty/themes/catppuccin-macchiato.yml ~/.config/alacritty/colors.yml
@@ -75,6 +95,10 @@ case $chosen in
     feh --bg-scale ~/Pictures/Catppuccin/5.png
     pkill polybar
     polybar -q example -c ~/.config/bspwm/polybar/config & disown
+    betterlockscreen -u ~/Pictures/catppuccin/16.jpeg --dim
+    pkill dunst
+    cp ~/.config/dunst/themes/catppuccin-macchiato ~/.config/dunst/dunstrc
+    dunst & disown
 	;;
 	$catppuccin_frappe)
     cp ~/.config/alacritty/themes/catppuccin-frappe.yml ~/.config/alacritty/colors.yml
@@ -84,6 +108,10 @@ case $chosen in
     feh --bg-scale ~/Pictures/Catppuccin/3.png
     pkill polybar
     polybar -q example -c ~/.config/bspwm/polybar/config & disown
+    betterlockscreen -u ~/Pictures/catppuccin/16.jpeg --dim
+    pkill dunst
+    cp ~/.config/dunst/themes/catppuccin-frappe ~/.config/dunst/dunstrc
+    dunst & disown
 	;;
 	$catppuccin_frappe_pink)
     cp ~/.config/alacritty/themes/catppuccin-frappe-pink.yml ~/.config/alacritty/colors.yml
@@ -93,6 +121,10 @@ case $chosen in
     feh --bg-scale ~/Pictures/Catppuccin/10.jpeg
     pkill polybar
     polybar -q example -c ~/.config/bspwm/polybar/config & disown
+    betterlockscreen -u ~/Pictures/catppuccin/4.jpeg --dim
+    pkill dunst
+    cp ~/.config/dunst/themes/catppuccin-frappe ~/.config/dunst/dunstrc
+    dunst & disown
 	;;
 	$gruvbox)
     cp ~/.config/alacritty/themes/gruvbox.yml ~/.config/alacritty/colors.yml
@@ -102,6 +134,10 @@ case $chosen in
     feh --bg-scale /home/asmj/Pictures/gruvbox/forest-hut.jpg
     pkill polybar
     polybar -q example -c ~/.config/bspwm/polybar/config & disown
+    betterlockscreen -u ~/Pictures/gruvbox/forest.jpg --dim
+    pkill dunst
+    cp ~/.config/dunst/themes/gruvbox ~/.config/dunst/dunstrc
+    dunst & disown
 	;;
 esac
 rofiimg
