@@ -1,5 +1,5 @@
 #! /bin/sh
-killall -9 sxhkd dunst ksuperkey xfce4-power-manager bspc
+killall -9 xhkd dunst ksuperkey xfce4-power-manager bspc
 
 # Enable power management
 xfce4-power-manager &
@@ -11,7 +11,9 @@ polybar -q example -c ~/.config/bspwm/polybar/config &
 ~/.fehbg &
 picom -b
 dunst &
+mpd & disown
 xfce4-power-manager &
+/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 sxhkd -c ~/.config/bspwm/sxhkdrc &
 #pgrep -x sxhkd > /dev/null || sxhkd -c ~/.config/bspwm/sxhkdrc &
 

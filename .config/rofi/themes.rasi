@@ -12,7 +12,7 @@ configuration {
 @import "colors.rasi"
 
 * {
-    font:                           "JetBrains Mono Medium 10";
+    font:                           "JetBrains Mono Nerd Font 10";
     background-color:             	@background;
 }
 

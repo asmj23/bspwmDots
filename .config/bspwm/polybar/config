@@ -21,7 +21,7 @@ include-file = ~/.config/bspwm/polybar/colors
 [bar/example]
 width = 99.4%
 height = 24pt
-radius = 6
+radius = 4
 offset-x = 0.3%
 offset-y = 0.5%
 fixed-center = true;
@@ -43,11 +43,11 @@ module-margin = 1
 separator = |
 separator-foreground = ${colors.orange}
 
-font-0 = "FiraCode Nerd Font:size=12;3" 
-font-1 = "JetBrains Mono:size=12;3" 
-font-2 = "Hack:size=12;3" 
-font-3 = "JoyPixels:size=12;3" 
-font-4 = "Font Awesome:size=12;3" 
+font-0 = "JetBrains Mono Nerd Font:size=11;3" 
+font-1 = "FiraCode Nerd Font:size=11;3" 
+font-2 = "Hack Nerd Font:size=11;3" 
+font-3 = "JoyPixels:size=11;3" 
+font-4 = "Font Awesome:size=11;3" 
 
 modules-left = xworkspaces xwindow
 modules-right = pulseaudio battery wlan eth date

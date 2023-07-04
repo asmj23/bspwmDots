@@ -1,14 +1,13 @@
 configuration{
-	icon-theme:                          "Gruvbox-Material-Dark";
+	icon-theme:                          "Nordzy-red-dark";
 }
 
 * {
-	background:			#282828;
-	background-alt:		        #665c54;
-	foreground:			#ebdbb2;
-	selected:	                #b8bb26;
-	urgent:				#fb4934;
-	on:				#b8bb26;
-	off:				#7c6f64;
-
+	background:			#303848;
+	background-alt:		        #4b566a;
+	foreground:			#b0c2d7;
+	selected:			#be616b;
+	urgent:				#bf616a;
+	on:				#8fbcbb;
+	off:				#eceff4;
 }
