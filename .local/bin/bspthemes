@@ -8,6 +8,7 @@
 notify_cmd_shot="dunstify -u low --replace=699 -i /usr/share/archcraft/icons/dunst/picture.png"
 
 everforest="Everforest"
+everforest_dark="Everforest Darker"
 nord="Nord"
 nord_red="Nord Red"
 dracula="Dracula"
@@ -17,7 +18,7 @@ catppuccin_frappe="Catppuccin Frappe"
 catppuccin_frappe_pink="Catppuccin Frappe Pink"
 gruvbox="Gruvbox"
 
-options="$everforest\n$nord\n$dracula\n$nord_red\n$catppuccin_mocha\n$catppuccin_macchiato\n$catppuccin_frappe\n$catppuccin_frappe_pink\n$gruvbox"
+options="$everforest\n$everforest_dark\n$nord\n$dracula\n$nord_red\n$catppuccin_mocha\n$catppuccin_macchiato\n$catppuccin_frappe\n$catppuccin_frappe_pink\n$gruvbox"
 
 chosen="$(echo -e "$options" | rofi -theme ~/.config/rofi/themes.rasi -p 'Choose Theme' -dmenu -selected-row 0)"
 echo "$chosen"
@@ -31,6 +32,19 @@ case $chosen in
     pkill polybar
     polybar -q example -c ~/.config/bspwm/polybar/config & disown
     betterlockscreen -u ~/Pictures/everforest/1.jpeg --dim
+    pkill dunst
+    cp ~/.config/dunst/themes/everforest ~/.config/dunst/dunstrc
+    dunst & disown
+	;;
+  $everforest_dark)
+    cp ~/.config/alacritty/themes/everforest-dark.yml ~/.config/alacritty/colors.yml
+    cp ~/.config/rofi/themes/everforest-dark.rasi ~/.config/rofi/colors.rasi
+    cp ~/.config/bspwm/polybar/themes/everforest-dark ~/.config/bspwm/polybar/colors
+		cp ~/.config/bspwm/gtk-3.0-themes/everforest-dark.ini ~/.config/gtk-3.0/settings.ini
+    feh --bg-scale ~/Pictures/everforest/forest_stairs.jpg
+    pkill polybar
+    polybar -q example -c ~/.config/bspwm/polybar/config & disown
+    betterlockscreen -u ~/Pictures/everforest/mist_forest_2.png --dim
     pkill dunst
     cp ~/.config/dunst/themes/everforest ~/.config/dunst/dunstrc
     dunst & disown
